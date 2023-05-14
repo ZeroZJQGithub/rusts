@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./restaurant/Cargo.toml",
+        "./fibonacci_numbers/Cargo.toml",
+        "./restaurant/Cargo.toml",
+        "./collections/Cargo.toml"
+    ]
+}
