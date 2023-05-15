@@ -16,5 +16,5 @@ fn main() {
     let first = vec_arr[0];
     vec_arr.push(7);
     println!("The first element is: {first}");
-    println!("The vector array is: {:?}", vec_arr);
+    println!("The vector array is: {:?}",vec_arr);
 }
