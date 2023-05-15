@@ -3,6 +3,9 @@
         "./restaurant/Cargo.toml",
         "./fibonacci_numbers/Cargo.toml",
         "./restaurant/Cargo.toml",
-        "./collections/Cargo.toml"
+        "./collections/Cargo.toml",
+        "./error_handling/Cargo.toml",
+        "./unwrap_error_handling/Cargo.toml",
+        "./read_username/Cargo.toml"
     ]
 }
