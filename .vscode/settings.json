@@ -8,6 +8,7 @@
         "./error_handling/Cargo.toml",
         "./unwrap_error_handling/Cargo.toml",
         "./read_username/Cargo.toml",
-        "./computer_number_average/Cargo.toml"
+        "./computer_number_average/Cargo.toml",
+        "./summary_trait/Cargo.toml"
     ]
 }
