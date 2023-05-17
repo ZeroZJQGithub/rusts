@@ -11,4 +11,15 @@ fn main() {
     };
 
     println!("1 new tweet: {}", tweet.summarize());
+
+    notify(&tweet);
+    notify_t(&tweet);
+}
+
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+
+pub fn notify_t<T: Summary>(item: &T) {
+    println!("Breaking news with T! {}", item.summarize());
 }
